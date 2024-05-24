@@ -4,8 +4,8 @@
     background-color: var(--bg-primary);
     transition: width 600ms ease;
     overflow: scroll;
-
-
+    z-index: 1000; /* Define um z-index alto para garantir que a navbar fique acima da lista */
+    height: 100%;
 }
 
 .navbar-nav {
@@ -18,7 +18,6 @@
     height: 100%;
 
 }
-
 .nav-item {
     width: 100%;
 }
@@ -81,4 +80,4 @@
     position: absolute;
     left: -999px;
     transition: var(--transition-speed);
-}
+}   
